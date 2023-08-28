@@ -41,7 +41,7 @@ get("/dice/1/20") do
 	
   outcome = "You rolled a #{first_die}."
 	
-  "<h1>2d6</h1>
+  "<h1>1d20</h1>
    <p>#{outcome}</p>"
 end
 
