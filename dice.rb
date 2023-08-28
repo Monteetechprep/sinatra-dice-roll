@@ -52,7 +52,7 @@ get("/dice/5/4") do
   fourth_die = rand(1..4)
   sum = first_die + second_die + third_die + fourth_die
 	
-  outcome = "You rolled a #{first_die}, a #{second_die}, #{third_die}, and a #{fourth_die} for a total of #{sum}."
+  outcome = "You rolled a #{first_die}, a #{second_die}, a #{third_die}, and a #{fourth_die} for a total of #{sum}."
 	
   "<h1>5d4</h1>
    <p>#{outcome}</p>"
